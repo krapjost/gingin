@@ -7,9 +7,8 @@
 </script>
 <style>
 	main { 
-		font-family: "GmarketSansMedium", GmarketSansLight, GmarketSansBold ;
+		font-family: "Gmarket Sans"
 	}
-
 </style>
 <Tailwindcss />
 <main class="w-full">

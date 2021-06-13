@@ -3,15 +3,28 @@
   @tailwind components;
   @tailwind utilities;
   @font-face {
-    font-family: 'GmarketSansBold';
-    src: url('http://script.ebay.co.kr/fonts/GmarketSansBold.woff2') format('woff2');
-}
+    font-family: 'Gmarket Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Gmarket Sans Bold'), local('GmarketSans-Bold')
+     ,url('http://script.ebay.co.kr/fonts/GmarketSansBold.woff2') format('woff2')
+     ,url('http://script.ebay.co.kr/fonts/GmarketSansBold.woff') format('woff')
+  }
   @font-face {
-    font-family: 'GmarketSansMedium';
-    src: url('http://script.ebay.co.kr/fonts/GmarketSansMedium.woff2') format('woff2');
-}
+    font-family: 'Gmarket Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Gmarket Sans Medium'), local('GmarketSans-Medium')
+     ,url('http://script.ebay.co.kr/fonts/GmarketSansMedium.woff2') format('woff2')
+     ,url('http://script.ebay.co.kr/fonts/GmarketSansMedium.woff') format('woff')
+  }
   @font-face {
-    font-family: 'GmarketSansLight';
-    src: url('http://script.ebay.co.kr/fonts/GmarketSansLight.woff2') format('woff2');
-}
+    font-family: 'Gmarket Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Gmarket Sans Light'), local('GmarketSans-Light')
+     ,url('http://script.ebay.co.kr/fonts/GmarketSansLight.woff2') format('woff2')
+     ,url('http://script.ebay.co.kr/fonts/GmarketSansLight.woff') format('woff')
+  }
+
 </style>
