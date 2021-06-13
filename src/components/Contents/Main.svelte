@@ -11,11 +11,14 @@
 </script>
 <Tailwindcss/>
 <aria class="w-full">
-    <article class="max-w-screen-xl mx-auto flex p-5 flex-col">
+    <article class="max-w-screen-xl mx-auto flex flex-col">
         <Devider heading={t.one.h}/>
-        <SectOne mainText={t.one.m} subText={t.one.s} imgs={i.one} direction="right"/>
-        <SectOne mainText={t.one.m} subText={t.one.s} imgs={i.two} direction="left"/>
-        <SectOne mainText={t.one.m} subText={t.one.s} imgs={i.thr} direction="right"/>
+        <div class="mb-80">
+
+            <SectOne mainText={t.one.m} subText={t.one.s} imgs={i.one} direction="right"/>
+            <SectOne mainText={t.one.m} subText={t.one.s} imgs={i.two} direction="left"/>
+            <SectOne mainText={t.one.m} subText={t.one.s} imgs={i.thr} direction="right"/>
+        </div>
         <Devider heading={t.two.h} />
         <SectTwo subHeading={t.two.sh} mainText={t.two.m} subText={t.two.s} imgs={i.four} direction="center"/>
         <Devider heading={t.thr.h}/>

@@ -1,7 +1,7 @@
 export const Slider = {
   one: {
     i: 0,
-    s: 'assets/images/oc(1).jpg',
+    s: 'assets/images/mainSlider/poong1.jpg',
   },
   two: {
     i: 1,

@@ -12,9 +12,9 @@
     export let direction:string;
 </script>
 <style>
-  h1 {
+  /* h1 {
     word-break: keep-all;
-  }
+  } */
   p {
     font-family: GmarketSansLight;
     word-break: keep-all;

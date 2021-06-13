@@ -20,21 +20,20 @@
     word-break: keep-all;
   }
 
-
 </style>
 <Tailwindcss/>
 {#if direction === "right"}
   <section class="text-gin">
-    <div class="container mx-auto my-auto flex px-5 md:py-8 md:flex-row flex-col items-center md:pt-24 pt-12">
+    <div class="container mx-auto my-auto flex md:py-2 md:flex-row flex-col items-center ">
       
-      <div class="lg:flex-grow md:w-1/2 lg:pr-14 md:pr-12 flex flex-col md:items-end md:text-right md:mb-0 items-center text-center lg:items-end lg:text-right">
-        <h1 class="sm:text-2xl text-xl mb-4 h-auto whitespace-pre-line">
+      <div class="lg:flex-grow md:w-1/2 lg:pr-5 md:pr-12 flex flex-col md:items-end md:text-right md:mb-0 items-center text-center lg:items-end lg:text-right">
+        <h1 class="sm:text-3xl text-xl h-auto sm:p-0 p-4">
           {mainText}
         </h1>
-        <p class="my-4 leading-relaxed whitespace-pre-line">{subText}</p>
+        <p class="leading-relaxed whitespace-pre-line py-5 text-xl">{subText}</p>
       </div>
       
-      <div class="my-4 lg:max-w-xl lg:w-full md:w-1/2 w-5/6 flex items-center">
+      <div class="my-4 md:w-1/2 w-full flex items-center pl-5">
         <div class="w-full aspect-w-16 aspect-h-9">
           <img class="object-cover object-center rounded" alt="상품 사진" src={imgs.s}>
         </div>
@@ -44,9 +43,9 @@
   </section>
 {:else if direction === "left"}
   <section class="text-gin ">
-    <div class="container mx-auto my-auto flex px-5 lg:py-16 md:py-8 py-4 md:flex-row flex-col items-center md:pt-24 pt-12">
+    <div class="container mx-auto my-auto flex  lg:py-2 md:py-8 py-4 md:flex-row flex-col items-center">
       
-      <div class="my-4 lg:max-w-xl lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 flex items-center">
+      <div class="my-4 md:w-1/2 w-full flex items-center pr-5">
         <div class="w-full aspect-w-16 aspect-h-9">
           <img class="object-cover object-center rounded" alt="상품 사진 2" src={imgs.s}>
         </div>

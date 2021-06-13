@@ -6,10 +6,10 @@
     
 </script>
 <style>
-  h1 {
+  /* h1 {
       font-family: GmarketSansbold;
     word-break: keep-all;
-  }
+  } */
   h2 {
     font-family: GmarketSansMedium;
     word-break: keep-all;

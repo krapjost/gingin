@@ -7,7 +7,7 @@
 </script>
 <style>
 	main { 
-		font-family: GmarketSansMedium;
+		font-family: "GmarketSansMedium", GmarketSansLight, GmarketSansBold ;
 	}
 
 </style>
