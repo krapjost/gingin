@@ -16,7 +16,7 @@
     word-break: keep-all;
   }
   p {
-    font-family: GmarketSansLight;
+    font-family: 'Gmarket Sans';
     word-break: keep-all;
   }
 

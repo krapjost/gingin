@@ -4,7 +4,7 @@
 </script>
 <style>
     h1 {
-        font-family: GmarketSansBold;
+        font-family: 'Gmarket Sans';
         word-break: keep-all;
     }
     @media (min-width: 1024px) {

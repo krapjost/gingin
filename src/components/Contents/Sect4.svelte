@@ -6,12 +6,9 @@
     
 </script>
 <style>
-  /* h1 {
-      font-family: GmarketSansbold;
-    word-break: keep-all;
-  } */
+
   h2 {
-    font-family: GmarketSansMedium;
+    font-family: 'Gmarket Sans';
     word-break: keep-all;
   }
 
