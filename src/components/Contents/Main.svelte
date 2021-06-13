@@ -14,17 +14,20 @@
     <article class="max-w-screen-xl mx-auto flex flex-col">
         <Devider heading={t.one.h}/>
         <div class="mb-80">
-
             <SectOne mainText={t.one.m} subText={t.one.s} imgs={i.one} direction="right"/>
             <SectOne mainText={t.one.m} subText={t.one.s} imgs={i.two} direction="left"/>
             <SectOne mainText={t.one.m} subText={t.one.s} imgs={i.thr} direction="right"/>
         </div>
         <Devider heading={t.two.h} />
-        <SectTwo subHeading={t.two.sh} mainText={t.two.m} subText={t.two.s} imgs={i.four} direction="center"/>
+        <div class="mb-80">
+            <SectTwo subHeading={t.two.sh} mainText={t.two.m} subText={t.two.s} imgs={i.four} direction="center"/>
+        </div>
         <Devider heading={t.thr.h}/>
-        <SectThr mainText={t.thr.m1} subText={t.thr.s1} imgs={i.one} direction="right"/>
-        <SectThr mainText={t.thr.m2} subText={t.thr.s2} imgs={i.two} direction="left"/>
-        <SectThr mainText={t.thr.m3} subText={t.thr.s3} imgs={i.thr} direction="right"/>
+        <div class="mb-80">    
+            <SectThr mainText={t.thr.m1} subText={t.thr.s1} imgs={i.one} direction="right"/>
+            <SectThr mainText={t.thr.m2} subText={t.thr.s2} imgs={i.two} direction="left"/>
+            <SectThr mainText={t.thr.m3} subText={t.thr.s3} imgs={i.thr} direction="right"/>
+        </div>
         <SectFour mainText={t.four.m} subText={t.four.s}/>
 
     </article>

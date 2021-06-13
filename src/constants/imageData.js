@@ -5,11 +5,11 @@ export const Slider = {
   },
   two: {
     i: 1,
-    s: 'assets/images/oc(2).jpg',
+    s: 'assets/images/mainSlider/poong2.jpg',
   },
   thr: {
     i: 2,
-    s: 'assets/images/oc(3).jpg',
+    s: 'assets/images/mainSlider/poong3.jpg',
   },
 };
 

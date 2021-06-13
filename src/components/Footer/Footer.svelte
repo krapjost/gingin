@@ -1,47 +1,33 @@
 <script lang="ts">
 	import Tailwindcss from '../../Tailwindcss.svelte';
 </script>
-
+<style>
+  * {
+    font-family: 'Gmarket Sans';
+  }
+</style>
 <Tailwindcss/>
 <footer class="bg-gin text-white body-font">
     <div class="container px-5 py-24 mx-auto">
       <div class="flex flex-wrap md:text-left text-center order-first">
-        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-          <h2 class="title-font font-medium text-gray-100 tracking-widest text-sm mb-3">CATEGORIES</h2>
+        <div class="md:w-1/2 w-full px-4">
+          
           <nav class="list-none mb-10">
             <li>
-              <a href="/" class="text-gray-100 hover:text-gray-100">First Link</a>
+              <a href="/" class="text-gray-100 hover:text-gray-100">오시는 길</a>
             </li>
             <li>
-              <a href="/" class="text-gray-100 hover:text-gray-100">Second Link</a>
+              <a href="/" class="text-gray-100 hover:text-gray-100">상품 문의</a>
             </li>
             <li>
-              <a href="/" class="text-gray-100 hover:text-gray-100">Third Link</a>
+              <a href="/" class="text-gray-100 hover:text-gray-100">자주 묻는 질문</a>
             </li>
-            <li>
-              <a href="/" class="text-gray-100 hover:text-gray-100">Fourth Link</a>
-            </li>
-          </nav>
-        </div>
-        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-          <h2 class="title-font font-medium text-gray-100 tracking-widest text-sm mb-3">CATEGORIES</h2>
-          <nav class="list-none mb-10">
-            <li>
-              <a href="/" class="text-gray-100 hover:text-gray-100">First Link</a>
-            </li>
-            <li>
-              <a href="/" class="text-gray-100 hover:text-gray-100">Second Link</a>
-            </li>
-            <li>
-              <a href="/" class="text-gray-100 hover:text-gray-100">Third Link</a>
-            </li>
-            <li>
-              <a href="/" class="text-gray-100 hover:text-gray-100">Fourth Link</a>
-            </li>
+    
           </nav>
         </div>
 
-        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+
+        <!-- <div class="lg:w-1/4 md:w-1/2 w-full px-4">
           <h2 class="title-font font-medium text-gray-100 tracking-widest text-sm mb-3">SUBSCRIBE</h2>
           <div class="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start">
             <div class="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
@@ -53,21 +39,16 @@
           <p class="text-gray-100 text-sm mt-2 md:text-left text-center">Bitters chicharrones fanny pack
             <br class="lg:block hidden">waistcoat green juice
           </p>
-        </div>
+        </div> -->
       </div>
     </div>
-    <div class="bg-gray-900">
+    <div class="bg-black">
       <div class="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
         <a href="/" class="flex title-font font-medium items-center md:justify-start justify-center text-gray-100">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-green-500 rounded-full" viewBox="0 0 24 24">
-            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-          </svg>
+
           <span class="ml-3 text-xl">풍경원</span>
         </a>
-        <p class="text-sm text-gray-100 sm:ml-6 sm:mt-0 mt-4">© 2020 Tailblocks —
-          <a href="/" rel="noopener noreferrer" class="text-gray-100 ml-1" target="_blank">@knyttneve</a>
-        </p>
-        <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+        <!-- <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
           <a href="/" class="text-gray-100">
             <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
               <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
@@ -90,7 +71,7 @@
               <circle cx="4" cy="4" r="2" stroke="none"></circle>
             </svg>
           </a>
-        </span>
+        </span> -->
       </div>
     </div>
   </footer>

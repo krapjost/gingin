@@ -69,9 +69,10 @@
         font-family: 'Gmarket sans';
     }
 </style>
-<div class="w-full h-screen flex justify-center relative overflow-hidden bg-black">
-    <img bind:this={imgs.one.i} class="{itemClasses} {x.one}" src={imgs.one.s} alt="test"/>
-    <img bind:this={imgs.two.i} class="{itemClasses} {x.two}" src={imgs.two.s} alt="test"/>
+<div class=" w-full h-screen flex justify-center relative overflow-hidden bg-black">
+    <div class="absolute w-full h-full z-30 bg-black bg-opacity-30" />
+    <img bind:this={imgs.one.i}  class="{itemClasses} {x.one}" src={imgs.one.s} alt="test"/>
+    <img bind:this={imgs.two.i}  class="{itemClasses} {x.two}" src={imgs.two.s} alt="test"/>    
     <img bind:this={imgs.thr.i} class="{itemClasses} {x.thr}" src={imgs.thr.s} alt="test"/>
 
     <div class="z-30 flex flex-row gap-2 absolute bottom-10 left-1/2 transform -translate-x-1/2 text-white">
@@ -86,7 +87,7 @@
         <div on:click={()=>next(d)} class="absolute transform rounded-full top-1/2 -translate-y-1/2 right-2 w-10 h-10 z-30">
             <img src="assets/images/mainSlider/arrow_right.png" alt="arrow" class="transform scale-50 -translate-y-4"/>
         </div>
-        <div class="absolute text-white transform top-2/4 -translate-y-1/2 left-1/4 z-30">
+        <div class="absolute text-white transform top-2/4 -translate-y-1/2 left-1/4 z-30 ">
             <h2 class="text-2xl mb-1 sm:text-3xl lg:text-5xl lg:mb-3 font-thin">
                 자연을 드리는
             </h2>
