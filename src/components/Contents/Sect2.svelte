@@ -11,13 +11,6 @@
     export let subHeading:string;
     export let subText:string;
 
-    let selected = 'foo';
-	  let options = [
-		'foo',
-		'bar',
-		'baz'
-	  ]
-
 </script>
 <style>
 
@@ -63,6 +56,20 @@
   box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
 }
 
+.info-content {
+  transition: all .5s ease-out;
+  transition-delay: .1s;
+}
+
+.info-section #info-1, .info-section #info-2, .info-section #info-3{
+  transform: translateY(40%);
+  opacity: 0;
+}
+
+#item-1:checked ~ .info-section #info-1, #item-2:checked ~ .info-section #info-2, #item-3:checked ~ .info-section #info-3 {
+  transform: translateY(5%);
+  opacity: 1;
+}
 
 input[type=radio] {
   display: none;
@@ -98,6 +105,7 @@ input[type=radio] {
   margin-bottom: 20px;
 }
 
+
 </style>
 <Tailwindcss/>
 
@@ -110,7 +118,6 @@ input[type=radio] {
         <input type="radio" name="slider"  id="item-3">
 
         <div class="cards">
-
           <label class="card" id="song-1" for="item-1" >
             <img alt="hero" src={imgs.s1}>
           </label> 
@@ -123,21 +130,45 @@ input[type=radio] {
             <img alt="hero" src={imgs.s2}>
           </label> 
         </div>
-          
-      </div>
 
-      {#each options as title}
-      <div class="w-full md:w-2/3 flex flex-col mb-16 items-center text-center">
-        <h1 class="sm:text-5xl text-3xl mb-4 h-auto whitespace-pre-line translate-x-10">
-          {subHeading} {title}
-        </h1>
-        <h1 class="sm:text-2xl text-xl h-auto whitespace-pre-line">
-          {mainText}
-        </h1>
-        <p class="leading-relaxed whitespace-pre-line">
-          {subText}
-        </p>
+
+        <div class="info-section relative w-full">
+  
+          <label for="item-1" id="info-1" class="info-content absolute top-3 w-full flex flex-col mb-16 items-center text-center">
+            <h1 class="sm:text-5xl text-3xl mb-4 h-auto whitespace-pre-line translate-x-10">
+              산양삼 꿀차
+            </h1>
+            <h1 class="sm:text-2xl text-xl h-auto whitespace-pre-line">
+              {mainText}
+            </h1>
+            <p class="leading-relaxed whitespace-pre-line">
+              {subText}
+            </p>
+          </label>
+          <label for="item-2" id="info-2" class="info-content absolute top-3 w-full flex flex-col mb-16 items-center text-center">
+            <h1 class="sm:text-5xl text-3xl mb-4 h-auto whitespace-pre-line translate-x-10">
+              산양삼 액기스
+            </h1>
+            <h1 class="sm:text-2xl text-xl h-auto whitespace-pre-line">
+              {mainText}
+            </h1>
+            <p class="leading-relaxed whitespace-pre-line">
+              {subText}
+            </p>
+          </label>
+          <label for="item-3" id="info-3" class="info-content absolute top-3 w-full flex flex-col mb-16 items-center text-center">
+            <h1 class="sm:text-5xl text-3xl mb-4 h-auto whitespace-pre-line translate-x-10">
+              산양삼 캔디
+            </h1>
+            <h1 class="sm:text-2xl text-xl h-auto whitespace-pre-line">
+              {mainText}
+            </h1>
+            <p class="leading-relaxed whitespace-pre-line">
+              {subText}
+            </p>
+          </label>
+        </div>
       </div>
-      {/each}
+      
 
   </section>

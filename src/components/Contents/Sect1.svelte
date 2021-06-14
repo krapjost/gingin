@@ -43,7 +43,7 @@
   </section>
 {:else if direction === "left"}
   <section class="text-gin ">
-    <div class="container mx-auto my-auto flex  lg:py-2 md:py-8 py-4 md:flex-row flex-col items-center">
+    <div class="container mx-auto my-auto flex lg:py-2 md:py-8 py-4 md:flex-row flex-col items-center">
       
       <div class="my-4 md:w-1/2 w-full flex items-center pr-5">
         <div class="w-full aspect-w-16 aspect-h-9">
@@ -52,10 +52,10 @@
       </div>
       
       <div class="lg:flex-grow md:w-1/2 lg:pl-14 md:pl-12 flex flex-col md:items-start md:text-left items-center text-center">
-        <h1 class="sm:text-2xl text-xl mb-4 whitespace-pre-line">
+        <h1 class="sm:text-3xl sm:p-0 p-4 text-xl h-auto">
           {mainText}
         </h1>
-        <p class="my-4 leading-relaxed whitespace-pre-line">
+        <p class="leading-relaxed whitespace-pre-line py-5 text-xl">
           {subText}
         </p>
       </div>
