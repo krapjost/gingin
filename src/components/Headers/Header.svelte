@@ -51,7 +51,7 @@
         <a href="/" class="mx-2.5 py-1.5 text-white hover:text-gray-900">고객문의</a>
         <!-- <a href="/" class="hover:text-gray-900">Fourth Link</a> -->
       </nav>
-      <a href="/" class="flex order-first lg:order-none lg:w-28 w-24 title-font font-medium items-center justify-items-center  text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
+      <a href="/" class="flex order-first lg:order-none lg:w-24 w-20 title-font font-medium items-center justify-items-center  text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
         <img src="assets/images/logo/logo_with_text.png" alt="logo"/>
       </a>
       <div class="lg:w-2/5 inline-flex lg:justify-end ml-5  text-sm pt-2">
